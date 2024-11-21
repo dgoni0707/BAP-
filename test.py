@@ -138,14 +138,14 @@
 
 
 ######## TASK 46
-arr = [1, 2, 3, 4, 5, 6]
-size = 2
+# arr = [1, 2, 3, 4, 5, 6]
+# size = 2
 
-output = []
-for i in range(0, len(arr), size):
-    output.append(arr[i:i + size])
+# output = []
+# for i in range(0, len(arr), size):
+#     output.append(arr[i:i + size])
 
-print(output)  
+# print(output)  
 
 ######## TASK 45
 ######## TASK 44
