@@ -17,7 +17,6 @@
 
 
 
-
 ######## TASK 58
 # num1=[]
 # nums = [1, 2, 2, 3, 3, 3]
@@ -31,13 +30,11 @@
 ######## TASK 57
 # numbers = [121, 343, 123]
 # output = []
-
 # for num in numbers:
 #     if str(num) == str(num)[::-1]:
 #         output.append(True)
 #     else:
 #         output.append(False)
-
 # print(output)  # [True, True, False]
 
 
@@ -138,35 +135,147 @@
 
 
 ######## TASK 46
-arr = [1, 2, 3, 4, 5, 6]
-size = 2
+# arr = [1, 2, 3, 4, 5, 6]
+# size = 2
+# output = []
+# for i in range(0, len(arr), size):
+#     output.append(arr[i:i + size])
+# print(output)  
 
-output = []
-for i in range(0, len(arr), size):
-    output.append(arr[i:i + size])
 
-print(output)  
 
-######## TASK 45
+######## TASK 45 
+# arr = [5, 10, 15, 20]
+# differences = []
+# for i in range(len(arr) - 1):
+#     differences.append(arr[i + 1] - arr[i]) 
+# print(differences) 
+
+
+
+
 ######## TASK 44
+# nums = [1, 2, 5, 6]
+# tar = 4 
+# for i in range(len(nums)):
+#     if nums[i] > tar :
+#         nums[i] = tar 
+# print (nums)
+
+
+
+
 ######## TASK 43
+# nums = [1, 2, 3, 4]
+# tar = 3
+# for num in nums[:]:
+#     if num < tar:
+#         nums.remove(num)  
+# print(nums)
+
+
 ######## TASK 42
+# arr = [1, 2, 3, 4]
+# arr = arr[1:] + arr[:1] 
+# print(arr)  
+
+
+
 ######## TASK 41
+
 ######## TASK 40
+
 ######## TASK 39
+
 ######## TASK 38
+
 ######## TASK 37
+# ar1 = [1, 2, 3]
+# ar2 = [4, 5, 6]
+# ar3 = []
+
+# for i in range(len(ar1)):
+#     ar = ar1[i] + ar2[i]  
+#     ar3.append(ar)      
+# print(ar3) 
+
+
+
 ######## TASK 36
+
 ######## TASK 35
+# arr = [1, 2, 3, 4]
+# target = 5
+# for i in range(len(arr)):
+#     for j in range(i + 1, len(arr)):
+#         if arr[i] + arr[j] == target:
+#             print("Yes")
+#             break
+#     else:
+#         continue
+#     break
+# else:
+#     print("No")
+
+
+
 ######## TASK 34
+# arr = [1, 2, 3, 4]
+# a = 2
+# rr = []
+# for i in range (len(arr)):
+#     r = arr[i] **2
+#     rr.append(r)
+# print (rr)
+
+
+
 ######## TASK 33
+# arr = [1, 2, 3, 4, 2]
+# tar = 2 
+# for i , arr in enumerate(arr):
+#     if arr == tar:
+#         break
+# print (i)
+
+
+
 ######## TASK 32
+
+
 ######## TASK 31
+# arr = [10, 20, 33, 46]
+# tar = 5
+# answer = []
+# for i  in range(len(arr)):
+#     if arr[i] % tar == 0 :
+#         answer.append(arr[i])
+# print (answer)
+
+
+
 ######## TASK 30
+# nums = [[1, 2], [3, 4], [5, 6]]
+# answer = 0
+# for i in range(len(nums)):
+#     answer = nums[i]+nums[i+1]
+#     answer = answer +nums[i-1]
+#     break 
+# print (answer)
+
 ######## TASK 29
 ######## TASK 28
 ######## TASK 27
 ######## TASK 26
+# nums = [[1, 2], [3, 4], [5, 6]]
+# answer = 0
+# for row in nums: 
+#     for num in row:  
+#         answer += num 
+# print(answer)
+
+
+
 ######## TASK 25
 ######## TASK 24
 ######## TASK 23
@@ -188,9 +297,35 @@ print(output)
 ######## TASK 7
 ######## TASK 6
 ######## TASK 5
+
+
 ######## TASK 4
 ######## TASK 3
-######## TASK 2
-######## TASK 1
+# nums = [1, 2, 2, 3, 3, 3]
 
+# for i in range (len(nums)):
+#     for j in range(i + 1):
+#         if nums[i] == nums[j]:
+
+
+
+######## TASK 2
+# arr = [-1, 2, -3, 4]
+# for i in range (len(arr)):
+#     if arr[i] < 0:
+#         arr[i] = 0
+#     else:
+#         continue
+# print (arr)
+
+
+
+######## TASK 1
+# nums = [2, 3, 4]
+# answer = 0
+# for i in range(len(nums)):
+#     answer = nums[i]*nums[i+1]
+#     answer = answer *nums[i-1]
+#     break 
+# print (answer)
 
